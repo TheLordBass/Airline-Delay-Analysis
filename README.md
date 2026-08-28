@@ -10,6 +10,14 @@ Power BI analysis of 18 months of short-haul departure performance for **Northli
 
 ---
 
+## The dashboard
+
+![Departure punctuality dashboard](Delay%20dashboard.png)
+
+One page, driven by the date slicer: six KPI cards across the top, OTP15 against target by month, delay minutes split by controllability, and delay and cancellation rates ranked by station. Station charts use rates rather than counts, for the reason set out below.
+
+---
+
 ## Headline findings
 
 **OTP15 averaged 78.2% against an 80% target, missing target in 9 of 18 months.**
@@ -158,6 +166,7 @@ DIVIDE(
 | File | Description |
 |---|---|
 | `Airline data.pbix` | Power BI report, including all Power Query steps and DAX measures |
+| `Delay dashboard.png` | Screenshot of the report page |
 
 ---
 
