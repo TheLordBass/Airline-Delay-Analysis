@@ -3,7 +3,7 @@
 Power BI analysis of 18 months of short-haul departure performance for **Northline Air**, a fictional UK carrier operating from Manchester, Gatwick and Edinburgh across 18 European destinations.
 
 **Period:** January 2025 – June 2026  
-**Scope:** 45,886 flight legs, 25 aircraft, 18 airports  
+**Scope:** 45,710 flight legs, 25 aircraft, 18 airports  
 **Tools:** Power BI (Power Query / M, DAX)
 
 > The dataset is synthetic and generated for this project. It does not represent any real airline's operations.
@@ -15,8 +15,9 @@ Power BI analysis of 18 months of short-haul departure performance for **Northli
 ![Departure punctuality dashboard](Delay%20dashboard.png)
 
 One page, driven by the date slicer: six KPI cards across the top, OTP15 against target by month, delay minutes split by controllability, and delay and cancellation rates ranked by station. Station charts use rates rather than counts, for the reason set out below.
+**Cancellation rate is 0.59%** (270 of 45,710), consistent with typical European short-haul. ALC is the weakest station at 0.93%; TFS the strongest at 0.24%.
 
-The date slicer in this screenshot stops at 28 June 2026, so its cards read marginally below the full-period figures quoted above — 45,710 flights against 45,886, and load factor rounded to 82%.
+**Load factor is 82%** across the period.
 
 ---
 
